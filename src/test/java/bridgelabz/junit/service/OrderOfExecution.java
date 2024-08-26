@@ -6,10 +6,7 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 
-//@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-//@TestMethodOrder(MethodOrderer.Alphanumeric.class)
-//@TestMethodOrder(MethodOrderer.MethodName.class)
-@TestMethodOrder(MethodOrderer.Random.class)
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class OrderOfExecution {
 
 	@Test

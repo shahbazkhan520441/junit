@@ -29,14 +29,14 @@ public class Calculator {
 
 	public void timeOutTesting()
 	{
-		for(int i=0;i<=1000000000;i++)
+		for(int i=0;i<=3;i++)
 		{
-			try {
-				Thread.sleep(2000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+//			try {
+////				Thread.sleep(2000);
+//			} catch (InterruptedException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
 		}
 	}
 
